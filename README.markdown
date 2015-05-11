@@ -1,18 +1,23 @@
 Selenium 2 Helper
 =================
 
-This small Java project contains some useful methods for Selenium 2 / WebDriver. I created this Helper Class while my three years work with this nice open source testing framework.
+This small class contains some useful methods for Selenium 2 / WebDriver. I created this helper class while my three years work with the nice open source framework, Selenium 2 / WebDriver.
 
 Usage
---------------------
+-----
 
 Your PageObject classes extends from the SeleniumHelper class. Protected methods may be used in PageObjects; public methods in PageObjects and test methods by the PageObject object.
+
+Thanks
+------
+
+The [Selenium Contributers](http://www.seleniumhq.org/about/contributors.jsp) for the [Selenium](http://www.seleniumhq.org/) project and all included tools.
 
 License
 -------
 The MIT License (MIT)
 
-Copyright (c) 2014 Twaldigas
+Copyright (c) 2014 Twaldigas and contributers
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

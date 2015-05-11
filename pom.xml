@@ -1,7 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	
 	<modelVersion>4.0.0</modelVersion>
 	
@@ -9,14 +8,14 @@
 	<groupId>de.twaldigas</groupId>
 	<artifactId>selenium-2-helper</artifactId>
 	
-	<version>2.44.0</version>
+	<version>2.45.0</version>
 	<packaging>jar</packaging>
 	
 	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>2.44.0</version>
+			<version>2.45.0</version>
 		</dependency>
 	</dependencies>
 	
@@ -26,7 +25,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.1</version>
+				<version>3.2</version>
 				<configuration>
 					<source>1.7</source>
 					<target>1.7</target>
@@ -41,9 +40,9 @@
 	
 	<!-- Environment Settings -->
 	<scm>
-        <connection>scm:git:git://github.com/twaldigas/java-selenium-2-helper.git</connection>
-        <developerConnection>scm:git:git@twaldigas/java-selenium-2-helper.git</developerConnection>
-        <url>https://github.com/Twaldigas/java-selenium-2-helper</url>
+		<connection>scm:git:git://github.com/twaldigas/java-selenium-2-helper.git</connection>
+		<developerConnection>scm:git:git@twaldigas/java-selenium-2-helper.git</developerConnection>
+		<url>https://github.com/Twaldigas/java-selenium-2-helper</url>
 	</scm>
 	
 </project>

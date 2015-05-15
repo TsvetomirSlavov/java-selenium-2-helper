@@ -25,6 +25,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
  * Helper Class especially for Selenium 2 / WebDriver.
+ * 
+ * @author https://github.com/Twaldigas
  */
 public class SeleniumHelper {
 
@@ -176,7 +178,7 @@ public class SeleniumHelper {
 	// XPath Finder
 
 	/**
-	 * Search specified XPaths. Start with first value in array.
+	 * Search for specified XPaths.
 	 * 
 	 * @param xpathList - XPaths as String.
 	 * @return First XPath was founded. Was no XPath found null.
@@ -243,7 +245,7 @@ public class SeleniumHelper {
 	// Switch Window
 
 	/**
-	 * Switch to a open window.
+	 * Go trough all open windows until the searched window was found.
 	 * 
 	 * @param url - A part of the URL from the window you want switch.
 	 */
@@ -373,18 +375,6 @@ public class SeleniumHelper {
 		final JavascriptExecutor js = (JavascriptExecutor) this.driver;
 		js.executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", element);
 		return js;
-	}
-
-	/**
-	 * Highlight a {@link WebElement} for 3 seconds.
-	 * 
-	 * @param element - {@link WebElement}.
-	 */
-	protected void highlightElement(final WebElement element) {
-		final String originalStyle = element.getAttribute("style");
-		final JavascriptExecutor js = highlightElementPermanently(element);
-		sleep(3000);
-		js.executeScript("arguments[0].setAttribute('style', '" + originalStyle + "');", element);
 	}
 
 	// Zoom

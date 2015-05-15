@@ -1,12 +1,13 @@
 Selenium 2 Helper
 =================
 
-This small class contains some useful methods for Selenium 2 / WebDriver. I created this helper class while my three years work with the nice open source framework, Selenium 2 / WebDriver.
+During my three years as test automation engineer I created this helper class for Selenium 2 / WebDriver.
 
 Usage
 -----
 
-Your PageObject classes extends from the SeleniumHelper class. Protected methods may be used in PageObjects; public methods in PageObjects and test methods by the PageObject object.
+Your [PageObjects](https://github.com/SeleniumHQ/selenium/wiki/PageObjects) can extend from the helper class. On this way you can use protected methods in your PageObjects and public methods in PageObjects and tests methods. 
+
 
 Thanks
 ------
